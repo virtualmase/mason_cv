@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mason Nguyen - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+    <!-- Lucide Icons for contact info -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Base styles from Monument Labs theme */
+        :root {
+            --color-primary: oklch(0.7 0.25 200);
+            --color-secondary: oklch(0.85 0.25 45);
+        }
+        body {
+            font-family: 'Satoshi', sans-serif;
+            background-color: #050505; /* Dark background */
+            color: #e5e5e5; /* Light text */
+            line-height: 1.6;
+        }
+        /* Gradient text for section titles, mimicking .signal-gradient-text */
+        .cv-gradient-text {
+            background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block; /* Ensures gradient applies correctly */
+        }
+        /* Link styling for consistency with the theme */
+        a {
+            color: var(--color-secondary);
+            transition: color 0.2s ease-in-out;
+        }
+        a:hover {
+            color: oklch(0.85 0.25 45 / 0.8); /* Slightly brighter on hover */
+        }
+        /* Icon styling */
+        .icon {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+            width: 1.2em;
+            height: 1.2em;
+        }
+        /* Custom list item styling */
+        .custom-list-item {
+            position: relative;
+            padding-left: 1.5rem; /* Space for the custom bullet */
+            margin-bottom: 0.5rem;
+        }
+        .custom-list-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.5em; /* Adjust vertical alignment */
+            width: 8px;
+            height: 8px;
+            background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body class="p-8 md:p-12 lg:p-16">
+
+    <div class="max-w-4xl mx-auto bg-black/20 p-8 md:p-10 lg:p-12 rounded-2xl border border-white/10 shadow-lg">
+
+        <!-- Header - Name and Contact Info -->
+        <header class="text-center mb-10 pb-6 border-b border-white/10">
+            <h1 class="text-4xl md:text-5xl font-black tracking-tight cv-gradient-text mb-3">Mason Nguyen</h1>
+            <div class="text-gray-300 text-sm md:text-base flex flex-wrap justify-center gap-x-6 gap-y-2">
+                <span class="flex items-center">
+                    <i data-lucide="map-pin" class="icon"></i>Monument, CO
+                </span>
+                <a href="mailto:masonnguyen138@gmail.com" class="flex items-center">
+                    <i data-lucide="mail" class="icon"></i>masonnguyen138@gmail.com
+                </a>
+                <a href="tel:+19493387589" class="flex items-center">
+                    <i data-lucide="phone" class="icon"></i>(949) 338-7589
+                </a>
+                <a href="https://www.linkedin.com/in/mason-nguyen" target="_blank" class="flex items-center">
+                    <i data-lucide="linkedin" class="icon"></i>linkedin.com/in/mason-nguyen
+                </a>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold cv-gradient-text mb-4">Professional Summary</h2>
+            <p class="text-gray-300">
+                Strategic and innovative Head of Digital Marketing (B2B) with over 10 years of experience driving global growth through advanced paid media, SEO, and cutting-edge Large Language Model Optimization (LLMO) strategies. Proven leader in leveraging AI and decentralized AI systems to achieve significant business outcomes. At Monument Labs, I spearheaded initiatives that led to a 35% organic traffic growth and 30% ROI improvement for fintech clients. Adept at managing agency relationships, fostering cross-functional collaboration, and optimizing digital ecosystems to enhance B2B customer journeys and deliver measurable, data-driven results aligned with market leadership.
+            </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold cv-gradient-text mb-4">Experience</h2>
+
+            <div class="mb-6 pb-4 border-b border-white/5 last:border-b-0">
+                <h3 class="text-xl font-bold text-white mb-1">Full-Stack Founder, Head of Automation & IaaS Product Strategy</h3>
+                <p class="text-gray-400 flex justify-between items-center text-sm md:text-base">
+                    <span>Monument Labs, Monument, CO</span>
+                    <span>September 2022 – Present</span>
+                </p>
+                <ul class="mt-3 text-gray-300">
+                    <li class="custom-list-item">Developed and executed global B2B digital strategies, driving 35% organic traffic growth and a 20% higher click-through rate for fintech clients via AI-optimized paid media (Google Ads, Meta, LinkedIn) and ABM campaigns.</li>
+                    <li class="custom-list-item">Pioneered LLMO strategies, integrating AI-native content frameworks to triple indexing speed and boost campaign ROI by 30%, leveraging decentralized AI for predictive analytics.</li>
+                    <li class="custom-list-item">Led cross-functional teams to implement multi-channel campaigns (SEO, email, content syndication), improving search rankings by 40% and reducing Largest Contentful Paint by 600ms for enhanced B2B user experience.</li>
+                    <li class="custom-list-item">Managed key agency relationships, onboarding partners and ensuring alignment with fintech client goals, increasing MQLs by 15% through data-driven optimizations.</li>
+                    <li class="custom-list-item">Analyzed performance with Google Analytics and SEMrush, reporting KPIs to stakeholders and optimizing B2B customer journeys for 25% higher email open rates.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 pb-4 border-b border-white/5 last:border-b-0">
+                <h3 class="text-xl font-bold text-white mb-1">Technical SEO Associate</h3>
+                <p class="text-gray-400 flex justify-between items-center text-sm md:text-base">
+                    <span>Kraken, Remote</span>
+                    <span>January 2021 – December 2022</span>
+                </p>
+                <ul class="mt-3 text-gray-300">
+                    <li class="custom-list-item">Directed B2B SEO strategies for a global crypto exchange, implementing hreflang and Next.js optimizations to boost U.S. traffic by 32.75% and competitive keyword rankings by 15%.</li>
+                    <li class="custom-list-item">Managed paid media campaigns (Google Ads, Instagram), reducing cost-per-acquisition by 12% and driving 10% higher INQs for B2B clients.</li>
+                    <li class="custom-list-item">Collaborated closely with web development teams to optimize site performance, contributing to 20% organic traffic growth and enhancing user experience.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 pb-4 border-b border-white/5 last:border-b-0">
+                <h3 class="text-xl font-bold text-white mb-1">Senior SEO Specialist</h3>
+                <p class="text-gray-400 flex justify-between items-center text-sm md:text-base">
+                    <span>Norvoc Bioscience, Remote</span>
+                    <span>January 2018 – December 2020</span>
+                </p>
+                <ul class="mt-3 text-gray-300">
+                    <li class="custom-list-item">Built and executed global SEO and content syndication strategies, improving organic traffic by 25% and B2B engagement by 15% through targeted paid social campaigns (Facebook, LinkedIn).</li>
+                    <li class="custom-list-item">Conducted in-depth keyword research and on-page optimization, significantly enhancing search visibility for bioscience clients in U.S. and global markets.</li>
+                    <li class="custom-list-item">Provided comprehensive performance reports using Google Analytics, driving 10% higher conversions through data-driven insights and strategic recommendations.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 pb-4 border-b border-white/5 last:border-b-0">
+                <h3 class="text-xl font-bold text-white mb-1">Director, Resource Management</h3>
+                <p class="text-gray-400 flex justify-between items-center text-sm md:text-base">
+                    <span>Bulletproof, Remote</span>
+                    <span>January 2016 – December 2017</span>
+                </p>
+                <ul class="mt-3 text-gray-300">
+                    <li class="custom-list-item">Led B2B email and social media campaigns for e-commerce clients, achieving 18% engagement growth through targeted content strategies.</li>
+                    <li class="custom-list-item">Supported SEO and web optimization efforts, increasing organic reach by 15% using CMS and analytics tools.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 pb-4 border-b border-white/5 last:border-b-0">
+                <h3 class="text-xl font-bold text-white mb-1">Earlier Roles</h3>
+                <ul class="mt-3 text-gray-300">
+                    <li class="custom-list-item">Attribution, Reputation Specialist, Swell, Remote (Jan 2015 – Dec 2015): Developed B2B social media campaigns (Twitter, Reddit), boosting brand visibility by 12% for U.S. markets.</li>
+                    <li class="custom-list-item">SEO Intern, Ferguson, Fountain Valley, CA (Jun 2015 – Dec 2015): Supported SEO initiatives, improving site rankings by 10% for U.S. audiences.</li>
+                    <li class="custom-list-item">Digital Strategist, Starbucks, Seattle, WA (Jan 2008 – Dec 2010): Created content to enhance brand relevance for diverse U.S. B2B and B2C audiences.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold cv-gradient-text mb-4">Education</h2>
+
+            <div class="mb-6 pb-4 border-b border-white/5 last:border-b-0">
+                <h3 class="text-xl font-bold text-white mb-1">Master’s in AI Infrastructure</h3>
+                <p class="text-gray-400 flex justify-between items-center text-sm md:text-base">
+                    <span>ETH Zürich, Zürich, Switzerland</span>
+                    <span>Graduated: June 2014</span>
+                </p>
+                <ul class="mt-3 text-gray-300">
+                    <li class="custom-list-item">Specialized in applied large language models and data-driven optimization, with direct applications in LLMO and B2B marketing automation.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 pb-4 border-b border-white/5 last:border-b-0">
+                <h3 class="text-xl font-bold text-white mb-1">Professional Certificate in Digital Marketing</h3>
+                <p class="text-gray-400 flex justify-between items-center text-sm md:text-base">
+                    <span>MIT, Cambridge, MA</span>
+                    <span>Completed: August 2015</span>
+                </p>
+                <ul class="mt-3 text-gray-300">
+                    <li class="custom-list-item">Focused on performance marketing, SEO, and advanced analytics for global B2B markets.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold cv-gradient-text mb-4">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-300">
+                <div>
+                    <h3 class="font-bold text-white mb-2">Digital Marketing Expertise</h3>
+                    <ul class="space-y-1">
+                        <li class="custom-list-item">Paid Media (Google Ads, Meta Ads)</li>
+                        <li class="custom-list-item">SEO & Generative Search Optimization (GSO)</li>
+                        <li class="custom-list-item">Large Language Model Optimization (LLMO)</li>
+                        <li class="custom-list-item">Account-Based Marketing (ABM)</li>
+                        <li class="custom-list-item">Content Syndication & Strategy</li>
+                        <li class="custom-list-item">Social Media Marketing (LinkedIn, Instagram, X)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white mb-2">Analytics & Reporting</h3>
+                    <ul class="space-y-1">
+                        <li class="custom-list-item">Google Analytics & Google Search Console</li>
+                        <li class="custom-list-item">SEMrush, Adobe Analytics</li>
+                        <li class="custom-list-item">KPI Development & Monitoring</li>
+                        <li class="custom-list-item">Performance Analysis & ROI Optimization</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white mb-2">Technical & AI Integration</h3>
+                    <ul class="space-y-1">
+                        <li class="custom-list-item">HTML, CSS, WordPress, Next.js</li>
+                        <li class="custom-list-item">AI-driven Analytics & Predictive Modeling</li>
+                        <li class="custom-list-item">Decentralized AI Integration</li>
+                        <li class="custom-list-item">Web Development Collaboration</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white mb-2">Leadership & Business Acumen</h3>
+                    <ul class="space-y-1">
+                        <li class="custom-list-item">Team Leadership & Mentorship</li>
+                        <li class="custom-list-item">Agency Onboarding & Management</li>
+                        <li class="custom-list-item">Cross-Functional Collaboration</li>
+                        <li class="custom-list-item">Global Campaign Management</li>
+                        <li class="custom-list-item">Fintech & Technology Markets</li>
+                        <li class="custom-list-item">Customer Journey Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Projects -->
+        <section>
+            <h2 class="text-2xl font-bold cv-gradient-text mb-4">Key Projects</h2>
+            <ul class="mt-3 text-gray-300">
+                <li class="custom-list-item">Monument Labs AI Campaigns: Led LLMO-driven content strategies, tripling indexing speed and improving B2B fintech campaign ROI by 30% using advanced AI analytics.</li>
+                <li class="custom-list-item">Kraken SEO Optimization: Implemented cutting-edge hreflang and Next.js optimizations, boosting U.S. traffic by 32.75% and significantly enhancing global B2B keyword rankings.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
